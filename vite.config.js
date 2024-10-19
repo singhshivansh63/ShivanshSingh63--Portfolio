@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite';
+ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Portfolio/",
+  base: "/",  // Use "/" if the app is served from the root
   build: {
     minify: 'esbuild', // Ensure ESBuild is used for minification
     chunkSizeWarningLimit: 1000, // Increase the limit to 1000 kB
