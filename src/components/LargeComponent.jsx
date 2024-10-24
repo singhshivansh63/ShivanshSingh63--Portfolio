@@ -4,8 +4,6 @@ import PropTypes from 'prop-types'; // Optional: Include if you plan to use prop
 const LargeComponent = () => {
   return (
     <div className="large-component"> {/* Optional: Add a class for styling */}
-      <h1>This is a Large Component</h1>
-      <p>It contains some text.</p>
     </div>
   );
 };
