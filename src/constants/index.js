@@ -135,30 +135,32 @@ const experiences = [
             "Familiarity with version control systems such as Git, facilitating seamless collaboration and efficient code management within development teams.",
         ],
     },
-    {
-        title: "ML/DL Study",
+      {
+        title: "Making Digital Assistant Using Python/Django",
         company_name: "4th Semester",
         icon: ml,
         iconBg: "#383E56",
         date: "Jan 2024 - Apr 2024",
         points: [
-            "Expertise in developing and deploying machine learning models using TensorFlow, PyTorch, or scikit-learn.",
-            "Skilled in data preprocessing, feature engineering, and model evaluation for optimal performance.",
-            "Proficient in implementing a variety of machine learning algorithms, including deep learning architectures.",
-            "Strong understanding of neural networks, CNNs, RNNs, and other advanced techniques.",
+             "Expertise in developing and deploying Deploying JARVIS as a web-based AI assistant allows users to interact with a smart.",
+              "voice-controlled system accessible from any device.",
+              "Built using Python and integrated with Flask.",
+               "from fetching information via APIs to automating tasks.",
+               "Once deployed, JARVIS can Understand and respond to voice commands or text input Fetch current news.",
+               "weather updates, or tell jokes Control smart devices or perform searches using Wikipedia and the web Provide personalized experiences based on user commands.",
         ],
     },
-    {
-        title: "CV & NLP Anatomy",
+      {
+        title: "React & Node.js",
         company_name: "5th Semester",
         icon: ai,
         iconBg: "#E6DEDD",
         date: "Aug 2024 - Present",
         points: [
-            "Expertise in computer vision using OpenCV or TensorFlow for image processing and object detection.",
-            "Skilled in NLP techniques like sentiment analysis and named entity recognition.",
-            "Proficient in developing and deploying ML models for both computer vision and NLP tasks.",
-            "Strong grasp of neural network architectures like CNNs and RNNs for these applications.",
+             "Expertise in full stack using react and node.jshere i develop some of my projects Movie App: Built with React, it allows users to browse.",
+             "search, and view movie details via API integration.",
+             "Task Prioritization App: Developed using React, enabling task creation, deletion, and priority management with Node.js for data storage.",
+             "Tweet Prediction Extension: A Chrome extension using React and Node.js to predict tweet virality with AI and real-time Twitter integration.",
         ],
     },
 ];
@@ -189,131 +191,68 @@ const testimonials = [
     },
 ];
 const projects = [
-    {
-        name: "Face Attendance System",
+      {
+        name: "Jarvis Digital Assistant",
         description:
-            "This transformative project aims to modernize attendance practices across multiple organizations, enhancing efficiency and effectiveness with innovative solutions.",
+            "The JARVIS Assistant is an AI-powered virtual assistant designed to perform various tasks using voice commands. It can play music, fetch weather updates, tell jokes, search the web, open applications, send emails, and more. Built with Python, it leverages speech recognition and automation libraries to streamline daily tasks and enhance productivity.Adding more advanced AI-driven features like predictive text and smart task suggestions.",
         tags: [
             {
-                name: "OpenCV",
+                name: "python Programing",
                 color: "blue-text-gradient",
             },
             {
-                name: "face-recognition",
+                name: "HTML",
                 color: "green-text-gradient",
             },
             {
-                name: "SVM",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_Link: "https://github.com/Savit-Raj/Face-Recognition-Attendance-System",
+        source_code_Link: "https://github.com/singhshivansh63/Digital-Assistant--Jarvis-.git",
     },
     {
-        name: "Job IT",
+        name: "Movie-App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+             "The Movie App is a dynamic web application built with React.js that allows users to explore, search, and view details of movies. The app leverages modern web technologies to create a responsive and interactive user interface. It fetches movie data from an external API to provide real-time information on various movies, including title, release date, genere, and user ratings as well providing feedback to user.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Node.js",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/singhshivansh63/my-app.git",
     },
-    {
-        name: "Trip Guide",
+      {
+        name: "Task prioritization App",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+             "A Task Prioritization App helps users manage tasks by assigning priority levels and organizing them efficiently. It features a clean UI for creating, editing, and deleting tasks, with options to categorize by urgency or importance. Users can easily track progress, mark tasks as complete, and prioritize what matters most using color codes or labels. The app enhances productivity by ensuring that high-priority tasks get attention first, improving time management and focus.",
         tags: [
             {
-                name: "nextjs",
+                name: "Node.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "React",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/singhshivansh63/task-prioritization.git",
     },
 ];
 export { services, technologies, experiences, testimonials, projects };
