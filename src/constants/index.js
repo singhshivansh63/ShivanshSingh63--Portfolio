@@ -215,7 +215,7 @@ const projects = [
     {
         name: "ChairSync AI",
         description:
-             " ChairSyncAI is an AI-powered meeting coordination and scheduling tool designed to automate the process of booking meetings, assigning chairpersons, and managing participant availability. It improves productivity and eliminates the hassle of back-and-forth communication when organizing meetings.",
+             "ChairSyncAI is an AI-powered meeting coordination and scheduling tool designed to automate the process of booking meetings, assigning chairpersons, and managing participant availability.It improves productivity and eliminates the hassle of back-and-forth communication when organizing meetings.The dynamic design and AI-backed intelligence make it a strong candidate for enterprise collaboration tools, especially for hybrid and remote workforces.",
         tags: [
             {
                 name: "React",
@@ -236,7 +236,7 @@ const projects = [
       {
         name: "Virtual Jewelry Try-On",
         description:
-             " Virtual Jewelry Try-On is a technology that allows users to see how jewelry like necklaces, rings, or earrings would look on them in real-time using their phone or computer camera.",
+             "Virtual Jewelry Try-On is a technology that allows users to see how jewelry like necklaces, rings, or earrings would look on them in real-time using their phone or computer camera.The dynamic design and AI-backed intelligence make it a strong candidate for enterprise collaboration tools, especially for hybrid and remote workforces. It leverages 3D modeling, AR face/hand tracking, and real-time rendering to enhance customer experience in the online jewelry shopping space.",  
         tags: [
             {
                 name: "Node.js",
