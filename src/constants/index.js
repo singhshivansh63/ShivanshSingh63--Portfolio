@@ -213,9 +213,9 @@ const projects = [
         source_code_Link: "https://github.com/singhshivansh63/Digital-Assistant--Jarvis-.git",
     },
     {
-        name: "Movie-App",
+        name: "ChairSync AI",
         description:
-             "The Movie App is a dynamic web application built with React.js that allows users to explore, search, and view details of movies. The app leverages modern web technologies to create a responsive and interactive user interface. It fetches movie data from an external API to provide real-time information on various movies, including title, release date, genere, and user ratings as well providing feedback to user.",
+             " ChairSyncAI is an AI-powered meeting coordination and scheduling tool designed to automate the process of booking meetings, assigning chairpersons, and managing participant availability. It improves productivity and eliminates the hassle of back-and-forth communication when organizing meetings.",
         tags: [
             {
                 name: "React",
@@ -231,12 +231,12 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/singhshivansh63/my-app.git",
+        source_code_link: "https://github.com/singhshivansh63/ChairSyncAI.git",
     },
       {
-        name: "Task prioritization App",
+        name: "Virtual Jewelry Try-On",
         description:
-             "A Task Prioritization App helps users manage tasks by assigning priority levels and organizing them efficiently. It features a clean UI for creating, editing, and deleting tasks, with options to categorize by urgency or importance. Users can easily track progress, mark tasks as complete, and prioritize what matters most using color codes or labels. The app enhances productivity by ensuring that high-priority tasks get attention first, improving time management and focus.",
+             " Virtual Jewelry Try-On is a technology that allows users to see how jewelry like necklaces, rings, or earrings would look on them in real-time using their phone or computer camera.",
         tags: [
             {
                 name: "Node.js",
@@ -252,7 +252,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/singhshivansh63/task-prioritization.git",
+        source_code_link: "https://github.com/singhshivansh63/Virtual-Jewel-Try-On.git",
     },
 ];
 export { services, technologies, experiences, testimonials, projects };
